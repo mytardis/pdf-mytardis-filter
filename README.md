@@ -32,7 +32,7 @@ Then add the definition for this filter.
 ```
 POST_SAVE_FILTERS = [
    ("tardis.tardis_portal.filters.pdf.pdf.make_filter",
-   ["PDF", "http://tardis.edu.au/schemas/pdf/1"])
+    ["PDF", "http://tardis.edu.au/schemas/pdf/1"])
    ]
 ```
 `cd /path/to/mytardis` and load the parameter schema into the MyTardis database:
